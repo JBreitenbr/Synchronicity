@@ -95,7 +95,7 @@ nav a {
 
 .page-header {
   font-size: 1.7rem;
-  border-left: 3px solid var(--israel-col);
+  /*border-left: 3px solid var(--israel-col);*/
   padding-left: 1rem;
   margin-bottom: 2rem;
   position: relative;
