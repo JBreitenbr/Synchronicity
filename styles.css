@@ -21,7 +21,7 @@ nav {
     z-index: 1000;
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.86rem;
+    font-size: 1.7rem;
    /* border: 1px solid lime;*/
     justify-content: space-evenly;
 }
@@ -106,3 +106,17 @@ section {
     p {
       margin: 0.6rem 0;
     }
+/* Responsive */
+@media (max-width: 1050px) {
+  nav {
+    font-size:1.2rem;
+  }
+}
+@media (max-width: 570px) {
+  body {
+    padding: 0.9rem;
+  }
+  nav {
+    font-size: 0.86rem;
+}
+      }
