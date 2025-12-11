@@ -133,7 +133,7 @@ nav a {
 .city-text {
   margin: 0;
   font-size: 0.84rem;
-  color: var(--text-city);
+  color: var(--israel-col);
   line-height: 1.15;
   font-style:italic;
   font-family:"Lora",serif;
@@ -181,7 +181,7 @@ nav a {
   width: 0.52rem;
   height: 0.52rem;
   border-radius: 999px;
-  box-shadow: 0 0 0 2px #405bb5;
+  box-shadow: 0 0 0 2px #7b8fd1;
   background: var(--israel-col);
 }
 
