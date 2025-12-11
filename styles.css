@@ -21,7 +21,8 @@ nav {
     z-index: 1000;
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.82rem;
+    font-size: 0.87rem;
+    border: 1px solid lime;
     justify-content: space-evenly;
 }
 
