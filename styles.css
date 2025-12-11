@@ -124,6 +124,8 @@ nav a {
 }
 .city-text {
   margin: 0.3rem 0 0;
+  font-style:italic;
+  font-family:"Lora",serif;
   font-size: 0.82rem;
   color: var(--text-city);
 }
