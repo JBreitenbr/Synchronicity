@@ -164,6 +164,14 @@ nav a {
   color: #746d64;
   line-height: 1.3;
   }
+.time-location {
+  font-size: 0.88rem;
+  color: #746d64;
+  font-style: italic;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
   /*  header {
       padding: 1.5rem 2rem;
       background: #1f3b57;
