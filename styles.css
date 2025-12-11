@@ -58,8 +58,9 @@ nav a {
 }
 
 #act {
-  background-color:#f5f5f5;
-  color:#1f3b57;
+  /*background-color:#f5f5f5;
+  color:#1f3b57;*/
+  font-size:1.3rem;
 }
 .page {
   width: 100%;
