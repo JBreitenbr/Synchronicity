@@ -6,7 +6,7 @@
   --israel-col: #253568;  
   --secondary-col: dodgerblue;
   --text-muted: #746d64;
-  --text-city: #704214;
+  --text-city: #6e5ab0;
   --border-soft: rgba(120, 100, 80, 0.3);
 }
 *,
@@ -130,18 +130,26 @@ nav a {
   margin-bottom: 0.3rem;
   border: 1px solid lime;
 }
-.city-text {  
+.city-text {
+  margin: 0;
+  font-size: 0.84rem;
+  color: var(--text-city);
+  line-height: 1.15;
+  font-style:italic;
+  font-family:"Lora",serif;
+}
+/*.city-text {  
   border: 1px solid var(--border-soft);
   border-radius:1rem;
   margin: 0.3rem 0 0 1.9rem;  
   padding: 1rem 1.1rem;
-  /*background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(250, 246, 239, 0.98));*/
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(250, 246, 239, 0.98));
   font-style:italic;
   font-family:"Lora",serif;
   font-size: 0.82rem;
   color: var(--text-city);
-}
+}*/
 /* vertikale Leitlinie für den Tag */
 .timeline::before {
   content: "";
