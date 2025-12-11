@@ -3,10 +3,9 @@
   --bg-body: #cacbc4;       
   --bg-page: #f5e7f1;       
 
-  --israel-col: #126187;  
+  --primary-col: #126187;  
   --secondary-col: #6893a4;
   --text-muted: #746d64;
-  --text-city: #6e5ab0;
   --border-soft: rgba(120, 100, 80, 0.3);
 }
 *,
@@ -105,7 +104,7 @@ nav a {
 
 .page-header {
   font-size: 1.7rem;
-  border-left: 3px solid var(--israel-col);
+  border-left: 3px solid var(--primary-col);
   padding-left: 1rem;
   margin-bottom: 2rem;
   position: relative;
@@ -120,7 +119,7 @@ nav a {
   width: 75px;
   height: 5px;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--israel-col), var(--secondary-col));
+  background: linear-gradient(90deg, var(--primary-col), var(--secondary-col));
   opacity: 0.9;
 }
 
@@ -143,7 +142,7 @@ nav a {
 .city-text {
   margin: 0;
   font-size: 0.84rem;
-  color: var(--israel-col);
+  color: var(--primary-col);
   line-height: 1.15;
   font-style:italic;
   font-family:"Lora",serif;
@@ -168,7 +167,7 @@ nav a {
   top: 1.4rem;
   bottom: 0.2rem;
   width: 1px;
-  background: var(--israel-col);
+  background: var(--primary-col);
   opacity: 0.7;
 }
 
@@ -192,7 +191,7 @@ nav a {
   height: 0.56rem;
   border-radius: 999px;
   /*box-shadow: 0 0 0 2px #7b8fd1;*/
-  background: var(--israel-col);
+  background: var(--primary-col);
 }
 
 .time-meta {
@@ -214,7 +213,7 @@ nav a {
 .time-label,.time-pure {
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
-  color: var(--israel-col);
+  color: var(--primary-col);
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
@@ -225,7 +224,7 @@ nav a {
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 999px;
-  border: 1px solid var(--israel-col);
+  border: 1px solid var(--primary-col);
   /*box-shadow: inset 0 0 0 1px rgba(37, 53, 104, 0.4);*/
   position: relative;
 }
@@ -236,7 +235,7 @@ nav a {
   position: absolute;
   width: 0.36rem;
   height: 1px;
-  background: var(--israel-col);
+  background: var(--primary-col);
   transform-origin: left center;
   transform: translateX(0.17rem) rotate(35deg);
   opacity: 0.9;
