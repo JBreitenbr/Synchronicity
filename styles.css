@@ -122,7 +122,7 @@ nav a {
   color: var(--secondary-col);
   margin-bottom: 0.4rem;
 }
-.person-text {
+.city-text {
   margin: 0.3rem 0 0;
   font-size: 0.82rem;
   color: var(--text-city);
