@@ -173,7 +173,7 @@ nav a {
   width: 0.52rem;
   height: 0.52rem;
   border-radius: 999px;
-  box-shadow: 0 0 0 2px cornflowerblue;
+  box-shadow: 0 0 0 2px #304488;
   background: var(--israel-col);
 }
 
@@ -208,7 +208,7 @@ nav a {
   height: 0.7rem;
   border-radius: 999px;
   border: 1px solid var(--israel-col);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  /*box-shadow: inset 0 0 0 1px rgba(37, 53, 104, 0.4);*/
   position: relative;
 }
 
