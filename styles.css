@@ -22,7 +22,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     font-size: 0.82rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 nav a {
