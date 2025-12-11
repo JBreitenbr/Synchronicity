@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&family=Palatino&display=swap');
+:root {
+  --bg-body: #f8edea;       
+  --bg-page: #f5e7f1;       
 
+  --israel-col: #4166f5;  
+  /*--aethiopien-col2: #c5b5a6;       
+  --aethiopien-col3: #e8c5a8;*/
+  
+  --text-muted: #746d64;    
+
+  --border-soft: rgba(120, 100, 80, 0.3);
+}
 *,
 *::before,
 *::after {
@@ -91,7 +102,7 @@ nav a {
   top: 1.4rem;
   bottom: 0.2rem;
   width: 1px;
-  background: tomato;
+  background: var(--israel-col);
   opacity: 0.7;
 }
 
@@ -114,7 +125,7 @@ nav a {
   width: 0.52rem;
   height: 0.52rem;
   border-radius: 999px;
-  background: tomato;
+  background: var(--israel-col);
 }
 
 .time-meta {
@@ -136,7 +147,7 @@ nav a {
 .time-label,.time-pure {
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
-  color: tomato;
+  color: var(--israel-col);
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
@@ -147,7 +158,7 @@ nav a {
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 999px;
-  border: 1px solid tomato;
+  border: 1px solid var(--israel-col);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
   position: relative;
 }
@@ -158,7 +169,7 @@ nav a {
   position: absolute;
   width: 0.36rem;
   height: 1px;
-  background: tomato;
+  background: var(--israel-col);
   transform-origin: left center;
   transform: translateX(0.17rem) rotate(35deg);
   opacity: 0.9;
@@ -168,12 +179,12 @@ nav a {
 .time-text {
   margin: 0;
   font-size: 0.77rem;
-  color: #746d64;
+  color: var(--text-muted);
   line-height: 1.3;
   }
 .time-location {
   font-size: 0.88rem;
-  color: #746d64;
+  color: var(--text-muted);
   font-style: italic;
   display: inline-flex;
   align-items: center;
