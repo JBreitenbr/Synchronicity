@@ -144,7 +144,7 @@ nav a {
   font-size: 0.84rem;
   color: var(--primary-col);
   line-height: 1.15;
-  text-align:center;
+ /* text-align:center;*/
   font-style:italic;
   font-family:"Lora",serif;
 }
