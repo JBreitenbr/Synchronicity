@@ -3,9 +3,9 @@
   --bg-body: #cacbc4;       
   --bg-page: #f5e7f1;       
 
-  --primary-col: #126187;  
-  --secondary-col:#6893a4;
-  --text-muted: #746d64;
+  --primary-col: /*#126187;*/#fb6e32;
+  --secondary-col:/*#6893a4;*/#95d268;
+  --text-muted:/* #746d64;*/#ffe7a1;
   --border-soft: rgba(120, 100, 80, 0.3);
 }
 *,
