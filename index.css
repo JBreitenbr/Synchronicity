@@ -3,7 +3,7 @@
   --bg-body: #f8edea;       
   --bg-page: #f5e7f1;       
   --text-muted: #746d64;    
-
+  --primary-col:#1f3b57;
   --border-soft: rgba(120, 100, 80, 0.3);
 }
 
@@ -67,6 +67,36 @@ nav a {
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
+}/* ICON B: Uhr-Symbol → kleine grafische Form vor der Zeit */
+.time-label,.time-pure {
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--primary-col);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.time-label::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--primary-col);
+  /*box-shadow: inset 0 0 0 1px rgba(37, 53, 104, 0.4);*/
+  position: relative;
+}
+
+/* kleiner Zeiger im „Kreis“ */
+.time-label::after {
+  content: "";
+  position: absolute;
+  width: 0.36rem;
+  height: 1px;
+  background: var(--primary-col);
+  transform-origin: left center;
+  transform: translateX(0.17rem) rotate(35deg);
+  opacity: 0.9;
 }
 #toggle {
   visibility:visible;
