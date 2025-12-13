@@ -67,7 +67,13 @@ nav a {
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
-}/* ICON B: Uhr-Symbol → kleine grafische Form vor der Zeit */
+}
+
+.time-meta {
+  font-size:0.88rem;
+}
+
+/* ICON B: Uhr-Symbol → kleine grafische Form vor der Zeit */
 .time-label,.time-pure {
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
