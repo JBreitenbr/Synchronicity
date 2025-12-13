@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&family=Palatino&family=Lora&family=Poppins&display=swap');
 :root {
   --bg-body: #e7a874;     
-  --bg-page: #f5e7f1;       
+  --bg-page: #fff2e0;       
 
   --primary-col: #3e1b1b;
   --secondary-col: #ff674c;
@@ -125,7 +125,7 @@ nav a {
 
 .page-header .label {
   font-family:"Nunito",sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--secondary-col);
