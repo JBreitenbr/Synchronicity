@@ -125,7 +125,7 @@ nav a {
 
 .page-header .label {
   font-family:"Nunito",sans-serif;
-  /*font-size: 0.9rem;*/
+  font-size: 1rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--secondary-col);
