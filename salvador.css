@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&family=Palatino&family=Lora&family=Poppins&display=swap');
-:root {
-  --bg-body: #e7a874;     
-  --bg-page: #fff2e0;       
+:root {   
+  --bg-body: #fff2e0;       
 
   --primary-col: #3e1b1b;
   --secondary-col: #ff674c;
