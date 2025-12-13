@@ -38,8 +38,8 @@ let arr=
           .data(countries)
           .join("path")
           .attr("d", path)
-          .attr("fill", "#d9c9a3")   // sandiges Land
-          .attr("stroke", "#333") // dezente Grenzen
+          .attr("fill", "#dec39b")   
+          .attr("stroke", "#333") 
           .attr("stroke-width", 0.5);   
       let mouseover=(d,i)=>{
      toolTip.style("visibility","visible").style("top",event.pageY-30+"px").style("left",width/2+20+"px").html("Land: "+i["country"]+"<br>"+"Stadt: "+i["city"]+"<br>"+"Einwohner: "+i["population"]+"<br><br>"+"Datum : "+new Date().toLocaleDateString('de-DE',{timeZone:i["tz"]})+"<br>"+"Uhrzeit: "+new Date().toLocaleTimeString('de-DE',{timeZone:i["tz"]}));
