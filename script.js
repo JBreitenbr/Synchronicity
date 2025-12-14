@@ -44,7 +44,7 @@ let arr=
       let mouseover=(d,i)=>{
      toolTip.style("visibility","visible").style("top",event.pageY-30+"px").style("left",width/2+20+"px").html("Land: "+i["country"]+"<br>"+"Stadt: "+i["city"]+"<br>"+"Einwohner: "+i["population"]+"<br><br>"+"Datum : "+new Date().toLocaleDateString('de-DE',{timeZone:i["tz"]})+"<br>"+"Uhrzeit: "+new Date().toLocaleTimeString('de-DE',{timeZone:i["tz"]}));
       }
-        svg.selectAll("circle").data(arr).enter().append("circle").attr("cx",(item)=>projection([item["lon"],item["lat"]])[0]).attr("cy",(item)=>projection([item["lon"],item["lat"]])[1]).attr("r",2).attr("fill","#1f3b57").attr("stroke","#000").attr("opacity",0.9).attr("stroke-width",0.5).on("mouseover",mouseover).on("mouseleave",()=>{toolTip.style("visibility","hidden")});
+        svg.selectAll("circle").data(arr).enter().append("circle").attr("cx",(item)=>projection([item["lon"],item["lat"]])[0]).attr("cy",(item)=>projection([item["lon"],item["lat"]])[1]).attr("r",2).attr("fill","#714342").attr("stroke","#000").attr("opacity",0.68).attr("stroke-width",0.5).on("mouseover",mouseover).on("mouseleave",()=>{toolTip.style("visibility","hidden")});
       })
       .catch(err => {
         console.error("Fehler beim Laden der Weltkarte:", err);
