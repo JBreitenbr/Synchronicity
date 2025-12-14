@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&family=Palatino&family=Lora&family=Poppins&display=swap');
 :root {
   --bg-body: #1da4ac;     
-  --bg-page: #f5e7f1;       
+  --bg-page: #d8cdab;       
 
   --primary-col: #110970;
   --secondary-col: #00646f;
@@ -70,7 +70,7 @@ nav a {
   margin: 120px auto 0 auto;
   padding: 2.25rem 1.9rem 2.4rem;
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(250, 246, 239, 0.96));
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), var(--bg-page);
   border-radius: 1.3rem;
   border: 1px solid rgba(140, 120, 95, 0.18);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12);
