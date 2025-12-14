@@ -5,7 +5,7 @@
 
   --primary-col: #110970;
   --secondary-col: #00646f;
-  --text-muted: #746d64;
+  --text-muted: #1f4c88;
   --border-soft: rgba(120, 100, 80, 0.3);
 }
 *,
@@ -69,8 +69,7 @@ nav a {
   max-width: 780px;
   margin: 120px auto 0 auto;
   padding: 2.25rem 1.9rem 2.4rem;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.95), var(--bg-page);
+  background:var(--bg-page);
   border-radius: 1.3rem;
   border: 1px solid rgba(140, 120, 95, 0.18);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12);
