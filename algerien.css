@@ -4,7 +4,6 @@
   --primary-col: #3b464a;
   --secondary-col: #7e7963;
   --text-muted: #746d64;
-  /*--border-soft: rgba(120, 100, 80, 0.3);*/
 }
 
 *,
@@ -17,12 +16,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: "Palatino",serif;
-  background-color:
-    /* leichte „Papier“-Textur / Körnung */
-    /*radial-gradient(circle at 10% 0, rgba(200, 180, 150, 0.28), transparent 60%),
-    radial-gradient(circle at 100% 100%, rgba(167, 180, 152, 0.22), transparent 65%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0, transparent 40%, transparent 100%),*/
-    var(--bg-body);
+  background-color: var(--bg-body);
   padding: 1.5rem;
 }
 
@@ -183,7 +177,7 @@ nav a {
   margin-bottom: 0.25rem;
 }
 
-/* ICON B: Uhr-Symbol → kleine grafische Form vor der Zeit */
+/* Uhr-Symbol → kleine grafische Form vor der Zeit */
 .time-label,.time-pure {
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
@@ -228,33 +222,6 @@ nav a {
   gap: 0.25rem;
 }
   
-  /* .city-meta {
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #555;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 0;
-      margin-bottom: 0.5rem;
-    }
-
-    .tagline {
-      font-style: italic;
-      color: #555;
-      margin-bottom: 1.5rem;
-    }
-
-section {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 1.5rem 1.75rem;
-      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
-    }*/
-
 /* Responsive */
 @media (max-width: 1050px) {
   nav {
