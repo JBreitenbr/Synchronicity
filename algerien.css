@@ -227,11 +227,8 @@ nav a {
   align-items: center;
   gap: 0.25rem;
 }
-  ;
-      margin: 2rem auto 3rem;
-      padding: 0 1rem;
-    }
-   .city-meta {
+  
+  /* .city-meta {
       font-size: 0.9rem;
       text-transform: uppercase;
       letter-spacing: 0.12em;
@@ -256,7 +253,7 @@ section {
       border-radius: 12px;
       padding: 1.5rem 1.75rem;
       box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
-    }
+    }*/
 
 /* Responsive */
 @media (max-width: 1050px) {
