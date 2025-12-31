@@ -7,7 +7,7 @@ const projection = d3.geoNaturalEarth1()
       .scale(90);
 
 let arr=
-[{"id":1,"country":"Australien","city":"Perth","lon":115.86,"lat":-31.95,"population":2169190,"tz":"Australia/Perth"},
+[/*{"id":1,"country":"Australien","city":"Perth","lon":115.86,"lat":-31.95,"population":2169190,"tz":"Australia/Perth"},*/
  {"id":2,"country":"Indonesien","city":"Jakarta","lon":106.85,"lat":-6.21,"population":11634100,"tz":"Asia/Jakarta"},
 /*{"id":3,"country":"Myanmar","city":"Mandalay","lon":96.05,"lat":21.85,"population":1594300,"tz":"Asia/Rangoon"},*/
 {"id":4,"country":"Kasachstan","city":"Almaty","lon":76.93,"lat":43.25,"population":2042040,"tz":"Asia/Almaty"},
@@ -22,8 +22,8 @@ let arr=
 {"id":13,"country":"Burkina Faso","city":"Ouagadougou","lon":-1.53,"lat":12.37,"population":3520820,"tz":"Africa/Ouagadougou"},
 {"id":14,"country":"Republik Kongo","city":"Brazzaville","lon":15.28,"lat":-4.27,"population":2813480,"tz":"Africa/Brazzaville"},
 {"id":15,"country":"Brasilien","city":"Rio de Janeiro","lon":-43.17,"lat":-22.91,"population":6775561,"tz":"America/Sao_Paulo"},
-/*{"id":16,"country":"Chile","city":"Valparaíso", "lon":-71.63,"lat":-33.03,"population":1024430,"tz":"America/Santiago"},
-{"id":17,"country":"Kolumbien","city":"Medellín","lon":-75.56,"lat":6.25,"population":4172810,"tz":"America/Bogota"},*/
+{"id":16,"country":"Chile","city":"Valparaíso", "lon":-71.63,"lat":-33.03,"population":1024430,"tz":"America/Santiago"},
+/*{"id":17,"country":"Kolumbien","city":"Medellín","lon":-75.56,"lat":6.25,"population":4172810,"tz":"America/Bogota"},*/
 {"id":18,"country":"El Salvador","city":"San Salvador","lon":-89.20,"lat":13.72,"population":1132420,"tz":"America/El_Salvador"},
 {"id":19,"country":"USA","city":"Santa Fe","lon":-105.94,"lat":35.69,"population":91254,"tz":"America/Los_Angeles"}];
     const path = d3.geoPath().projection(projection);
