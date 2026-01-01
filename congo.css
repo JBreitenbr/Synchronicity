@@ -252,3 +252,9 @@ nav a {
   }
 
       }
+
+@media (max-width: 370px) {
+  nav {
+    font-size:0.93rem;
+  }
+}
