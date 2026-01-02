@@ -46,7 +46,7 @@ nav {
 
 nav a {
   font-family:"Poppins","Nunito",sans-serif;
-  margin: 0px 7px;
+  margin: 0px 5px;
   text-decoration:none;
   color: #f5f5f5;
 }
@@ -171,7 +171,7 @@ p {
     visibility:hidden;
   }*/
   nav {
-    font-size:0.98rem;
+    font-size:0.96rem;
   }
   .page {
     padding: 1.7rem 1.3rem 2rem;
