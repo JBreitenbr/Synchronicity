@@ -35,7 +35,7 @@ nav {
     z-index: 1000;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
 }
 
 nav a {
@@ -234,9 +234,11 @@ nav a {
     padding: 0.9rem;
   }
   nav {
-    font-size: 0.95rem;
-}  
-       .page {
+    font-size: 0.98rem;
+    justify-content: space-evenly;
+  }
+  
+  .page {
     padding: 1.7rem 1.3rem 2rem;
        } 
 .timeline::before {
