@@ -234,6 +234,7 @@ nav a {
   }
   nav {
     font-size: 0.98rem;
+    justify-content: space-evenly;
    } 
   
    .page {
