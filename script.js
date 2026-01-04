@@ -7,7 +7,8 @@ const projection = d3.geoNaturalEarth1()
       .scale(90);
 
 let arr=
-[{"id":1,"country":"Indonesien","city":"Jakarta","lon":106.85,"lat":-6.21,"population":11634100,"tz":"Asia/Jakarta"},
+[{"id":0,"country":"Australia","city":"Perth","lon":115.86,"lat":-31.95,"population":2169190,"tz":"Australia/Perth"},
+{"id":1,"country":"Indonesien","city":"Jakarta","lon":106.85,"lat":-6.21,"population":11634100,"tz":"Asia/Jakarta"},
 {"id":2,"country":"Kasachstan","city":"Almaty","lon":76.93,"lat":43.25,"population":2042040,"tz":"Asia/Almaty"},
 {"id":3,"country":"Iran","city":"Isfahan","lon":51.67,"lat":32.65,"population":2327990,"tz":"Asia/Tehran"},
 {"id":4,"country":"Israel","city":"Haifa","lon":34.99,"lat":32.79,"population":1199980,"tz":"Asia/Hebron"},
